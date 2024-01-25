@@ -1,0 +1,155 @@
+/* newsletter */
+.newsletter{
+    height: 75vh;
+    width: var(--primary-width);
+    background: url('../../../public/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: var(--align-items);
+    background-size: cover;
+    position: relative;
+    color: var(--primary-color)
+}
+
+.newsletter .overlay{
+    background-color: rgba(51,33,29,0.88);
+}
+
+.newsletter .container{
+    position: relative;
+    text-align: var(--align-items);
+}
+
+.newsletter-content .discount{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.newsletter-content h1:nth-of-type(2){
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.newsletter-content h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+}
+.newsletter-content .form-group{
+    display: flex;
+    justify-content: var(--align-items);
+    align-items: var(--align-items);
+    padding: 2rem 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-group .myForm{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: var(--align-items)
+}
+
+.form-group .myForm .form-control{
+    flex: 3;
+    height: 60px;
+    border: none;
+    padding-left: 20px;
+}
+
+.form-group .myForm .form-control:focus{
+    outline: 2.5px solid #714940;
+    opacity: .95;
+}
+
+.form-group .myForm .btn-submit{
+    flex: 1;
+    padding: 1.2rem 10px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: #393838;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* media query */
+/* tablet */
+@media screen and (max-width: 768px){
+    .newsletter .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+   .newsletter-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .newsletter-content .discount{
+    font-size: 55px;
+   }
+   .newsletter-content h1:nth-of-type(2){
+    font-size: 33.5px;
+   }
+   .newsletter-content h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+    .newsletter-content .form-group{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .form-group .myForm{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .form-group .myForm .form-control{
+        width: 300px;
+    }
+}
+
+/* mobile large */
+@media screen and (max-width: 425px){
+
+    .newsletter .container{
+        width: 89%;
+        margin: 0 auto;
+    }
+    .newsletter-content .discount{
+        font-size: 41.5px;
+       } 
+       .newsletter-content h1:nth-of-type(2){
+        font-size: 28.5px;
+       }
+       .newsletter-content h4{
+        font-size: 22.5px;
+        font-weight: 500;
+        margin-bottom: .5rem;
+    }
+    .newsletter-content .form-group{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .form-group .myForm{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+/* mobile small */
+
+@media screen and (max-width: 375px){
+    .newsletter-content .form-group{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .form-group .myForm{
+        width: 98%;
+        margin: 0 auto;
+    }
+}

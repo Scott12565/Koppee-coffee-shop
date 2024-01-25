@@ -1,0 +1,67 @@
+{
+  
+  "menu": [
+    {
+      "imgUrl": "../img/menu-1.jpg",
+      "price": "$5",
+      "title": "Black Coffee",
+      "body": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor"
+    },
+    {
+      "imgUrl": "../img/menu-2.jpg",
+      "price": "$7",
+      "title": "Chocolete Coffee",
+      "body": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor"
+    },
+    {
+      "imgUrl": "../img/menu-3.jpg",
+      "price": "$9",
+      "title": "Coffee With Milk",
+      "body": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor"
+    },
+    {
+      "imgUrl": "../img/menu-1.jpg",
+      "price": "$5",
+      "title": "Black Coffee",
+      "body": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor"
+    },
+    {
+      "imgUrl": "../img/menu-2.jpg",
+      "price": "$7",
+      "title": "Chocolete Coffee",
+      "body": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor"
+    },
+    {
+      "imgUrl": "../img/menu-3.jpg",
+      "price": "$9",
+      "title": "Coffee With Milk",
+      "body": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor"
+    }
+  ],
+  "testimonials": [
+    {
+      "imgUrl": "../img/testimonial-1.jpg",
+      "clientName": "Sarah Doe",
+      "profession": "profession",
+      "info": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita"
+    },
+    {
+      "imgUrl": "../img/testimonial-2.jpg",
+      "clientName": "John Doe",
+      "profession": "profession",
+      "info": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita"
+    },
+    {
+      "imgUrl": "../img/testimonial-3.jpg",
+      "clientName": "Luiss Doe",
+      "profession": "profession",
+      "info": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita"
+    },
+    {
+      "imgUrl": "../img/testimonial-4.jpg",
+      "clientName": "Jack Doe",
+      "profession": "profession",
+      "info": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita"
+    }
+  ]
+}

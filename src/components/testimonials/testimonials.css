@@ -1,0 +1,137 @@
+/* testemonials */
+.testemonials{
+    padding: 3rem 0;
+    text-align: var(--align-items);
+}
+
+.testemonials .testemonial-container{
+    margin: 50px auto;
+    margin-bottom: 26px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    overflow: hidden;
+    position: relative;
+}
+
+.testemonials .testemonial-container .client{
+    width: 375px;
+    margin-right: 15px;
+    transition: transform .9s ease-in-out;
+}
+
+.testemonials .testemonial-container .client div.flex{
+    justify-content: start;
+    align-items: var(--align-items);
+}
+
+.testemonials .testemonial-container .client div div{
+    margin-left: 25px;
+}
+
+.testemonials .testemonial-container .client img{
+    width: 92px;
+    height: 92px;
+}
+
+.testemonials .testemonial-container .client h4{
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--third-color);
+    text-transform: capitalize;
+}
+
+.testemonials .testemonial-container .client i{
+    margin-right: 30px;
+    color: #555;
+}
+
+.testemonials .testemonial-container .client p{
+    font-size: 1.05rem;
+    text-align: start;
+    padding: 1.1rem 0;
+    color: #555;
+    transition: transform .5s ease-in-out;
+}
+
+.nav-dots{
+    width: 12%;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: var(--align-items);
+}
+ 
+.nav-dots .dot{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    transition: all .5s ease-in-out;
+} 
+
+.nav-dots .dot.active{
+    background-color: var(--third-color);
+    width: 30%;
+    transition: all .5s ease-in-out;
+}
+
+/* media query */
+/* tablet */
+
+@media screen and (max-width: 768px){
+    .testemonials{
+        padding: 5rem 0;
+        text-align: var(--align-items);
+    }
+    .testemonials .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .nav-dots{
+        width: 16.5%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .testemonials{
+        padding: 3.5rem 0;
+    }
+    .testemonials .container{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .testemonials .testemonial-container .client{
+        width: 375px;
+        margin: 0 auto;
+    }
+    .testemonials .testemonial-container .client h4{
+        text-align: start;
+    }
+    .testemonials .testemonial-container .client i{
+       font-size: 1.25rem;
+    }
+    .testemonials .testemonial-container .client p{
+        font-size: 1.15rem;
+        line-height: 1.4;
+    }
+    .nav-dots{
+        width: 35%;
+        margin: 0 auto;
+    }
+}
+
+/* mobile small */
+
+@media screen and (max-width: 375px){
+    .testemonials .container{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .testemonials .testemonial-container .client{
+        width: 318px;
+        margin: 0 auto;
+        padding: 0 5px;
+    }
+}

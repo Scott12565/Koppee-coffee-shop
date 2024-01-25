@@ -1,0 +1,100 @@
+.showcase{
+    height: 100vh;
+    background: url('../../../public/img/carousel-1.jpg');
+    background-repeat: no-repeat;
+    background-position: var(--align-items);
+    background-size: cover;
+    position: relative;
+}
+
+.showcase .container{
+    position: relative;
+    top: 25%;
+    text-align: var(--align-items);
+    line-height: 5.5;
+}
+
+.showcase-content{
+    position: relative;
+    z-index: 2;
+}
+
+.showcase-content h4{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.showcase-content h1{
+    font-size: 8rem;
+    line-height: 0;
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px){
+    .showcase{
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .showcase .container{
+        position: static;
+        /* line-height: 5.5; */
+    }
+
+    .showcase-content h4{
+        font-size: 1.8rem;
+    }
+    
+    .showcase-content h1{
+        font-size: 6.5rem;
+        color: var(--primary-color);
+    }
+}
+
+/* mobile large */
+
+@media screen and (max-width: 425px){
+    .showcase{
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .showcase .container{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .showcase-content h4{
+        font-size: 1.7rem;
+    }
+    .showcase-content h1{
+        font-size: 5.5rem;
+    }
+    
+}
+
+/* mobile large */
+
+@media screen and (max-width: 425px){
+    .showcase{
+        height: 40vh;
+    }
+    .showcase .container{
+       
+    }
+    .showcase-content h4{
+        font-size: 1.5rem;
+        line-height: 4.5;
+        font-weight: 500;
+    }
+    .showcase-content h1{
+        font-size: 4rem;
+    }
+  }

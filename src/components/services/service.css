@@ -1,0 +1,140 @@
+/* services */
+.services{
+  margin: 5.5rem auto;
+  margin-bottom: 5rem;
+  text-align: var(--align-items);
+  
+}
+
+
+.service-content p{
+  font-size: var(--secondary-font-size);
+  color: #393838;
+}
+
+.service-content .delivery img,
+.service-content .beans img,
+.service-content .coffee img,
+.service-content .bookings img{
+  width: 210px;
+  height: 210px;
+}
+
+.service-content .delivery div,
+.service-content .beans div,
+.service-content .coffee div,
+.service-content .bookings div{
+  padding: 25px 0;
+  width: 55.33333%;
+  text-align: start;
+}
+
+.service-content .delivery div div,
+.service-content .beans div div,
+.service-content .coffee div div,
+.service-content .bookings div div{
+  width: var(--primary-width);
+  margin: 0 auto;
+}
+
+.service-content .delivery div div.flex,
+.service-content .beans div div.flex,
+.service-content .coffee div div.flex,
+.service-content .bookings div div.flex{
+  justify-content: flex-start;
+  align-items: var(--align-items);
+}
+
+.service-content .delivery div div h4,
+.service-content .beans div div h4,
+.service-content .coffee div div h4,
+.service-content .bookings div div h4{
+  font-size: 1.36rem;
+  font-weight: 500;
+  padding-left: 13px;
+  color: var(--third-color);
+}
+
+/* tablet */
+
+@media screen and (max-width: 768px){
+  .services{
+    margin: 4rem auto;
+  }
+
+  .services .container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .service-content{
+    padding: 30px 0;
+  }
+
+  .service-content.grid{
+    grid-template-columns: 1fr;
+  }
+  .service-content .delivery div div,
+.service-content .beans div div,
+.service-content .coffee div div,
+.service-content .bookings div div{
+ padding: 20px 0;
+}
+
+  .service-content .delivery img,
+.service-content .beans img,
+.service-content .coffee img,
+.service-content .bookings img{
+  width: 280px;
+  height: 280px;
+}
+}
+
+/* mobile large */
+@media screen and (max-width: 425px){
+
+  .service-content .delivery,
+.service-content .beans,
+.service-content .coffee,
+.service-content .bookings{
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  margin: 10px auto;
+}
+
+.service-content .delivery img,
+.service-content .beans img,
+.service-content .coffee img,
+.service-content .bookings img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.service-content .delivery div,
+.service-content .beans div,
+.service-content .coffee div,
+.service-content .bookings div{
+  width: 100%;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+.service-content .delivery div div h4,
+.service-content .beans div div h4,
+.service-content .coffee div div h4,
+.service-content .bookings div div h4{
+  font-weight: 600;
+}
+.service-content .delivery div  p,
+.service-content .beans div p,
+.service-content .coffee div p,
+.service-content .bookings div p{
+  font-size: 1.08rem;
+  line-height: 1.4;
+  font-weight: 100;
+}
+}
