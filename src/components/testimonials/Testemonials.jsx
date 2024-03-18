@@ -4,7 +4,7 @@ import SubHeading from '../SubHeading';
 import { useState } from 'react';
 
 const Testemonials = () => {
-    const {data} = useFetch('http://localhost:3001/testimonials')
+    const {data} = useFetch('../database/db.json', 'testimonials')
     // this array object is also a pain in the ass so i need to create a seperate file for it
     const testimonialInfo = data
     let [current, setCurrent] = useState(0)
